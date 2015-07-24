@@ -1,0 +1,12 @@
+{
+  "name": "simple-chrome-user-stylesheets",
+  "description": "I'm tired of extensions that request too many permissions just to enable custom styles!",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://ffxivclock.com/*"],
+      "css": ["ffxivclock.css"]
+    }
+  ],
+  "manifest_version": 2
+}
